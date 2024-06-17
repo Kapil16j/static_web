@@ -39,7 +39,8 @@ const Widget = ({ snippet, evaluateDelay }) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh' // Full viewport height
+        height: '100vh', // Full viewport height
+        width:'30%',
       }}
     >
       <div
