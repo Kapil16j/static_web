@@ -40,13 +40,13 @@ const Widget = ({ snippet, evaluateDelay }) => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh', // Full viewport height
-        width:'30%',
+        // border :'2px solid black'
       }}
     >
       <div
         ref={widgetRef}
         dangerouslySetInnerHTML={{ __html: snippet }}
-        style={{ textAlign: 'center' }} // Center text inside the widget if necessary
+        style={{ textAlign: 'center',width:'40%' }} // Center text inside the widget if necessary
       />
     </div>
   );
